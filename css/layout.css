@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+hr {
+	margin:0 30px;
+}
+
+div.left_block {
+	width:180px;
+	float:left;
+}
+div#navigator{
+	padding:10px 5px;
+}
+
+div.boderV{
+	float:left;
+	width:5px;
+	height:200px;
+	background-color:gray;
+}
+
+div.main_block{
+	float:left;
+	width:1000px;
+	height:200px;
+}
+
+div.footer{
+	clear:both;
+}
+

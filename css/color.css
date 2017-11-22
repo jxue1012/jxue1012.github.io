@@ -1,0 +1,33 @@
+*{
+	text-align:center;
+    color:black;
+}
+
+h1{
+	font-size:60px;
+	font-weight:900;
+}
+
+hr {
+	height:5px;
+	background-color:gray;
+}
+
+div#navigator ul{
+	list-style-type:none;
+	font-size:20px;
+	font-weight:700;
+	color:black;
+}
+
+div#navigator a:link{
+	text-decoration:none;
+}
+div#navigator a:visited{
+	color:black;
+	text-decoration:underline;
+}
+div#navigator a:hover{
+	color:white;
+	background-color:gray;
+}
