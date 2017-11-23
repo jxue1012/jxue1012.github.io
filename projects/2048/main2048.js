@@ -9,6 +9,7 @@ var endY;
 window.onload = function() {
     prepareForMobile();
     newGame();
+    $('#load').hide();
 }
 
 function prepareForMobile() {
@@ -181,7 +182,7 @@ document.addEventListener("touchend", function(event){
     deltaX=endX-startX;
     deltaY=endY-startY;
 
-    if(Math.abs(deltaX) < 0.3 * documentWidth && Math.abs(deltaY) < 0.3* documentWidth)
+    if(Math.abs(deltaX) < 0.2 * documentWidth && Math.abs(deltaY) < 0.2* documentWidth)
         return;
 
     if(Math.abs(deltaX) >= Math.abs(deltaY)){
